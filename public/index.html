@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Blackjack</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/screen.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Black Jack !</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/screen.css" />
   </head>
   <body>
-    <h1 class='hello-world'></h1>
+    <div>
+      <h1>Black Jack</h1>
+    </div>
+
+    <section class="dealer1">
+      <section class="backimg" id="backimg">
+        <img src="back card/cardimg.PNG" />
+        <img src="back card/cardimg.PNG" />
+      </section>
+      <section class="dealer" id="deala">
+        <section class="dealer-text"></section>
+        <h3 class="dealer-sum"></h3>
+        <ul class="dealer-hand"></ul>
+      </section>
+    </section>
+    <section class="player">
+      <section class="player-text"></section>
+      <h3 class="player-sum"></h3>
+      <ul class="player-hand"></ul>
+      <section class="buttons">
+        <button class="hit">Deal!</button>
+        <button class="stand">Stand!</button>
+      </section>
+      <section class = "reset">
+        
+          <button class="reset">Reset!</button>
+    </section>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
